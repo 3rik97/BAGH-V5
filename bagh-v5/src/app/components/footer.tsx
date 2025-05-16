@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Footer() {
     return <div className="max-w-[1440px] w-full flex flex-col md:flex-row flex-wrap lg:flex-nowrap  gap-[25px] lg:gap-[20px] justify-self-center justify-around p-[20px] border-b-1">
         <div className="column1">
@@ -6,10 +7,10 @@ export default function Footer() {
             <br />
             <strong className="font-bold text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">Email: <span className="font-normal text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">info@example.com</span></strong>
             <ul className="flex flex-nowrap gap-[10px] pt-[20px]">
-                <li><a href=""><img src="/link.png" alt="x" /></a></li>
-                <li><a href=""><img src="/link-1.png" alt="facebook" /></a></li>
-                <li><a href=""><img src="/link-2.png" alt="instagram" /></a></li>
-                <li><a href=""><img src="/link-3.png" alt="linkedin" /></a></li>
+                <li><Link href=""><img src="/link.png" alt="x" /></Link></li>
+                <li><Link href=""><img src="/link-1.png" alt="facebook" /></Link></li>
+                <li><Link href=""><img src="/link-2.png" alt="instagram" /></Link></li>
+                <li><Link href=""><img src="/link-3.png" alt="linkedin" /></Link></li>
             </ul>
         </div>
         <div className="column2 ">

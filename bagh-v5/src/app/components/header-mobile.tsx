@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Link from 'next/link'
 
 const MobileNav = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -9,9 +10,9 @@ const MobileNav = () => {
     return (
         <nav className="relative">
             <div className="flex items-center justify-between p-4 bg-black text-white z-50 fixed w-full">
-                <a href="/">
+                <Link href="/">
                     <img src="/BAGH.png" alt="Logo" className="h-10 w-auto" />
-                </a>
+                </Link>
                 <button
                     onClick={() => setIsOpen(true)}
                     aria-label="Open menu"
@@ -38,11 +39,11 @@ const MobileNav = () => {
                 </button>
 
                 <ul className="flex flex-col gap-6">
-                    <li><a href="#" className="text-lg flex items-center gap-[45px]"><img src="/home.png" alt="" /> Home</a></li>
-                    <li><a href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Games</a></li>
-                    <li><a href="#" className="text-lg flex items-center gap-[45px]"><img src="/services.png" alt="" /> Services</a></li>
-                    <li><a href="#" className="text-lg flex items-center gap-[45px]"><img src="/contact.png" alt="" /> Contact</a></li>
-                    <li><a href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Blog</a></li>
+                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/home.png" alt="" /> Home</Link></li>
+                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Games</Link></li>
+                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/services.png" alt="" /> Services</Link></li>
+                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/contact.png" alt="" /> Contact</Link></li>
+                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Blog</Link></li>
                     <li>
                         <button className="w-full bg-[#F47521] text-white py-2 mt-4">
                             Sign In
