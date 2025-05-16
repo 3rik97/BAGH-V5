@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "../app/components/header"
 import Section1 from "../app/components/section1"
 import Section2 from "../app/components/section2"
 import Section3 from "../app/components/section3"
