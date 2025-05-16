@@ -41,7 +41,7 @@ export default function Section2() {
                     24/7 Customer Support
                 </p>
                 <p className="italic font-normal text-[12px] leading-[24px] text-[#E8E6E3]">
-                    Our 24/7 professional customer support is here to help you with any question. From game rules to account problems, payment support, and more, we're always on hand to help via live chat, email, and hotline assistance.
+                    Our 24/7 professional customer support is here to help you with any question. From game rules to account problems, payment support, and more, we&apos;re always on hand to help via live chat, email, and hotline assistance.
                 </p>
                 <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] ">Know More</button>
             </div>
