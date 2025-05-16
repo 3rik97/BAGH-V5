@@ -2,7 +2,7 @@ import Link from "next/link"
 export default function Footer() {
     return <div className="max-w-[1440px] w-full flex flex-col md:flex-row flex-wrap lg:flex-nowrap  gap-[25px] lg:gap-[20px] justify-self-center justify-around p-[20px] border-b-1">
         <div className="column1">
-            <img src="/bagh.png" alt="logo" className="w-[179px] h-[116] pb-[20px]" />
+            <img src="/BAGH.png" alt="logo" className="w-[179px] h-[116] pb-[20px]" />
             <strong className="font-bold text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">Phone: <span className="font-normal text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">+1 5589 55488 55</span></strong>
             <br />
             <strong className="font-bold text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">Email: <span className="font-normal text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">info@example.com</span></strong>

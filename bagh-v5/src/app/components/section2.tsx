@@ -6,7 +6,7 @@ export default function Section2() {
         </div>
         <div className="sm:flex m-auto py-[50px]">
             <div className="sm:w-full lg:w-[45%] sm:order-2 order-1">
-                <img src="/cards1.png" alt="test" className="m-auto" />
+                <img src="/Cards1.png" alt="test" className="m-auto" />
             </div>
             <div className="sm:w-full lg:w-[55%] sm:order-1 order-2 flex flex-col justify-center gap-[20px]">
                 <p className="title not-italic font-bold text-[20px] leading-[30px] text-[#E8E6E3]">
