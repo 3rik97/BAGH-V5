@@ -7,10 +7,10 @@ export default function Footer() {
             <br />
             <strong className="font-bold text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">Email: <span className="font-normal text-[12px] leading-[21px] text-[#F9F8F8] font-['Inter']">info@example.com</span></strong>
             <ul className="flex flex-nowrap gap-[10px] pt-[20px]">
-                <li><Link href=""><img src="/link.png" alt="x" /></Link></li>
-                <li><Link href=""><img src="/link-1.png" alt="facebook" /></Link></li>
-                <li><Link href=""><img src="/link-2.png" alt="instagram" /></Link></li>
-                <li><Link href=""><img src="/link-3.png" alt="linkedin" /></Link></li>
+                <li><Link href=""><img src="/Link.png" alt="x" /></Link></li>
+                <li><Link href=""><img src="/Link-1.png" alt="facebook" /></Link></li>
+                <li><Link href=""><img src="/Link-2.png" alt="instagram" /></Link></li>
+                <li><Link href=""><img src="/Link-3.png" alt="linkedin" /></Link></li>
             </ul>
         </div>
         <div className="column2 ">
