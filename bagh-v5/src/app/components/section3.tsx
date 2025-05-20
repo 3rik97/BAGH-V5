@@ -40,7 +40,7 @@ export default function Section2() {
                         Weekly Cashback Offers
                     </p>
                     <p className="font-normal text-[12px] leading-[14px] text-center text-[#E8E6E3] font-['Inter']">
-                        We’ve got your back. You will get something back whether you win or lose. Enjoy regular cashback deals every time you play.
+                        We&apos;ve got your back. You will get something back whether you win or lose. Enjoy regular cashback deals every time you play.
                     </p>
                 </div>
 
