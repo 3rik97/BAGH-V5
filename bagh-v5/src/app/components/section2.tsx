@@ -7,7 +7,7 @@ export default function Section2() {
                 One of its standout features is its exclusive game collection. BAGH games are designed to deliver exciting gameplay, captivating graphics, and a real game experience. To deliver world-class entertainment to Bangladeshi players, BAGH casino site promises a secure and enjoyable experience for everyone to access their favorite games.
             </p>
             <p className="not-italic font-normal text-[20px] leading-[24px] text-[#E8E6E3] text-center">
-                Discover the universe of BAGH games and indulge yourself in Bangladesh's new online betting experience.
+                Discover the universe of BAGH games and indulge yourself in Bangladesh&apos;s new online betting experience.
             </p>
         </div>
         <div className="sm:flex m-auto py-[50px]">
@@ -48,7 +48,7 @@ export default function Section2() {
                     24/7 Customer Support
                 </p>
                 <p className="italic font-normal text-[12px] leading-[24px] text-[#E8E6E3]">
-                    Assistance is always within reach at BAGH. Our support staff stands by to assist you day and night. Get quick help when you need it. They are always ready to assist. Enjoy a smooth play at Bangladesh's best online casino.
+                    Assistance is always within reach at BAGH. Our support staff stands by to assist you day and night. Get quick help when you need it. They are always ready to assist. Enjoy a smooth play at Bangladesh&apos;s best online casino.
                 </p>
                 <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] ">Know More</button>
             </div>
