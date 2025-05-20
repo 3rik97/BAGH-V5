@@ -40,9 +40,9 @@ const MobileNav = () => {
 
                 <ul className="flex flex-col gap-6">
                     <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/home.png" alt="" /> Home</Link></li>
-                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Games</Link></li>
-                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/services.png" alt="" /> Services</Link></li>
-                    <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/contact.png" alt="" /> Contact</Link></li>
+                    <li><Link href="#about" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> About</Link></li>
+                    <li><Link href="#services" className="text-lg flex items-center gap-[45px]"><img src="/services.png" alt="" /> Services</Link></li>
+                    <li><Link href="#contact" className="text-lg flex items-center gap-[45px]"><img src="/contact.png" alt="" /> Contact</Link></li>
                     <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Blog</Link></li>
                     <li>
                         <button className="w-full bg-[#F47521] text-white py-2 mt-4">

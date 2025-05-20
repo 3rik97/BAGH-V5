@@ -1,5 +1,5 @@
 export default function Section2() {
-    return <div className="max-w-[1440px] p-[15px] lg:p-[120px] lg:pt-0 flex flex-col gap-10 justify-self-center">
+    return <div className="max-w-[1440px] p-[15px] lg:p-[120px] lg:pt-0 flex flex-col gap-10 justify-self-center" id="about">
         <div className="p-[15px] m-auto">
             <p className="font-extrabold text-[36px] leading-[44px] text-[#E8E6E3] text-center mb-[10px]"><span>About</span></p>
             <p className="not-italic font-normal text-[20px] leading-[24px] text-[#E8E6E3] text-center">BAGH is a new online gaming platform in Bangladesh. It is designed to offer a fun and safe gaming experience. It also provides top security to protect players. Players can enjoy many types of casino games. BAGH offers traditional table games, slots, and live dealer games for all players.</p>

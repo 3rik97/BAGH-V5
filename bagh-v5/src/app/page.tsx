@@ -8,7 +8,7 @@ import MobileNav from "./components/header-mobile";
 
 export default function Home() {
   return (
-    <div className="min-h-screen font-[Inter] flex flex-col ">
+    <div className="min-h-screen font-[Inter] flex flex-col  scroll-smooth">
       <main className="">
         <MobileNav></MobileNav>
         <Section1></Section1>

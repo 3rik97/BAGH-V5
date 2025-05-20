@@ -1,5 +1,5 @@
 export default function Section() {
-    return <section className="section1">
+    return <section className="section1" id="#">
         <div className="relative pt-[80px] m-auto text-white  max-w-[1440px]">
             <img src="/Dice separated.png" alt="dice" className="w-[80vw] sm:w-[35vw] m-auto " />
             <div className="bottom-0 flex flex-col justify-center gap-2">

@@ -1,5 +1,5 @@
 export default function Section2() {
-    return <div className="max-w-[1440px] p-[15px] lg:p-[90px] lg:pt-0 flex flex-col gap-10 justify-self-center">
+    return <div className="max-w-[1440px] p-[15px] lg:p-[90px] lg:pt-0 flex flex-col gap-10 justify-self-center" id="services">
         <div className="p-[15px] m-auto">
             <p className="font-extrabold text-[36px] leading-[44px] text-[#E8E6E3] text-center mb-[10px]"><span>Services</span></p>
             <p className="not-italic font-normal text-[20px] leading-[24px] text-[#E8E6E3] text-center">Find out what makes us different</p>
