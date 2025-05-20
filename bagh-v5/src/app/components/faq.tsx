@@ -4,16 +4,32 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
-    answer: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
+    question: 'What is BAGH Casino Online?',
+    answer: 'BAGH Casino Online is a new platform in Bangladesh. It offers many casino games for all kinds of players',
   },
   {
-    question: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
-    answer: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
+    question: 'Why is BAGH a top casino in Bangladesh?',
+    answer: 'BAGH offers exciting games and provides a smooth, easy user experience, making it stand out even among top competitors like BAGH8.',
   },
   {
-    question: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
-    answer: 'Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?',
+    question: 'What kinds of games does BAGH Casino Online provide?',
+    answer: 'FBAGH Casino Online offers a wide variety of games to enjoy. You can play slots or table games. It also has live dealer games and more.',
+  },
+  {
+    question: 'How do I sign up on BAGH Casino Online?',
+    answer: 'You can quickly sign up by going to the BAGH Casino Online website and filling out a brief registration form.',
+  },
+  {
+    question: 'How do I fund my BAGH Casino Online account?',
+    answer: 'BAGH Casino Online offers multiple deposit options. This makes it convenient to add funds to your account.',
+  },
+  {
+    question: 'May I withdraw winnings from BAGH Casino Online?',
+    answer: 'Yes, BAGH Casino Online will enable you to withdraw winnings after verifying your identity.',
+  },
+  {
+    question: 'Is support available on BAGH Casino Online?',
+    answer: 'Yes, BAGH Casino Online has a customer support team in place to cater to any concerns or questions.',
   },
 ];
 
