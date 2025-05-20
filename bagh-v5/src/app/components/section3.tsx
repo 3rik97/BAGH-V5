@@ -26,7 +26,7 @@ export default function Section2() {
                         Generous Welcome Bonuses
                     </p>
                     <p className="font-normal text-[12px] leading-[14px] text-center text-[#E8E6E3] font-['Inter']">
-                        New to us? You've got a treat awaiting. Receive a hearty welcome with bonuses, spins, and more, because we want our players to be rewarded from the beginning.
+                        New to us? You&apos;ve got a treat awaiting. Receive a hearty welcome with bonuses, spins, and more, because we want our players to be rewarded from the beginning.
                     </p>
                 </div>
 
