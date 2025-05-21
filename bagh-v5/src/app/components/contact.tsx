@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="max-w-[1440px] lg:p-[90px] lg:pt-0 flex flex-col gap-10 justify-self-center">
+    <div className="max-w-[1440px] lg:p-[90px] lg:pt-0 flex flex-col gap-10 justify-self-center mx-auto">
       <div className="p-[15px] m-auto">
         <p className="font-extrabold text-[36px] leading-[44px] text-[#E8E6E3] text-center mb-[10px]">
           <span>Contact</span>
