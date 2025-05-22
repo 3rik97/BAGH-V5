@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Nunito_Sans } from "next/font/google";
 import "./globals.css";
-
+import Head from "next/head";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,6 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="yraiRxDBM2pGvft8s6LGwfXWPVAXAKwsw8rIiPFvsVo"
+        />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${Nunito.variable} antialiased`}
       >
