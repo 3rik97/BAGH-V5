@@ -12,7 +12,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-wrap justify-self-center justify-center gap-[63px] items-start">
         <div className="flex flex-col justify-center gap-[38px]">
-          <div className="flex items-center gap-[20px]">
+          {/* <div className="flex items-center gap-[20px]">
             <div className="icon">
               <img src="/address.svg" alt="" />
             </div>
@@ -24,7 +24,7 @@ export default function Contact() {
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex items-center gap-[20px]">
             <div className="icon">
               <img src="/telephone.svg" alt="" />

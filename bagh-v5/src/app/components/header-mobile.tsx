@@ -8,8 +8,8 @@ const MobileNav = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
     return (
-        <nav className="relative">
-            <div className="flex items-center justify-between p-4 bg-black text-white z-50 fixed w-full">
+        <nav className="relative max-w-[1920px]">
+            <div className="px-[20px] lg:px-[100px] flex items-center justify-between p-4 bg-black text-white z-50 fixed w-full">
                 <Link href="/">
                     <img src="/BAGH.png" alt="Logo" className="h-10 w-auto" />
                 </Link>
