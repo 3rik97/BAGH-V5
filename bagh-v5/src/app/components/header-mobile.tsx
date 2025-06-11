@@ -10,7 +10,7 @@ const MobileNav = () => {
     return (
         <nav className="relative max-w-[1920px]">
             <div className="px-[20px] lg:px-[100px] flex items-center justify-between p-4 bg-black text-white z-50 fixed w-full">
-                <Link href="/">
+                <Link href="https://bagh.live/af/5pButO62/bagh55">
                     <img src="/BAGH.png" alt="Logo" className="h-10 w-auto" />
                 </Link>
                 <button
@@ -46,7 +46,7 @@ const MobileNav = () => {
                     <li><Link href="#" className="text-lg flex items-center gap-[45px]"><img src="/blog.png" alt="" /> Blog</Link></li>
                     <li>
                         <button className="w-full bg-[#F47521] text-white py-2 mt-4">
-                            Sign In
+                            <Link href="https://bagh.live/af/5pButO62/bagh55">Sign In</Link>
                         </button>
                     </li>
                 </ul>

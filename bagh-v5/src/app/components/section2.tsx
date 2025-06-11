@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Section2() {
     return <div className="max-w-[1440px] p-[15px] lg:p-[120px] lg:pt-0 flex flex-col gap-10 justify-self-center mx-auto" id="about">
         <div className="p-[15px] m-auto">
@@ -22,7 +23,7 @@ export default function Section2() {
                     BAGH online casino site offers many games for all kinds of players. From slots to live dealer games. There is always something new to try. Every game is made to be fun and exciting. New games are added often so you always have choices.
 
                 </p>
-                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000]">Know More</button>
+                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000]"><Link href="https://bagh.live/af/5pButO62/bagh55">Know More</Link> </button>
             </div>
         </div>
         <div className="sm:flex m-auto py-[50px]">
@@ -36,7 +37,7 @@ export default function Section2() {
                 <p className="italic font-normal text-[12px] leading-[24px] text-[#E8E6E3]">
                     At BAGH, thrilling bonuses and promotions are awaiting you. From the welcome reward to daily and weekly offers, there is something extra to look out for all the time. These bonuses provide you with additional winning opportunities and keep you playing longer. Watch for updates so you never miss an offer.
                 </p>
-                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] ">Know More</button>
+                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] "><Link href="https://bagh.live/af/5pButO62/bagh55">Know More</Link></button>
             </div>
         </div>
         <div className="sm:flex m-auto py-[50px]">
@@ -50,7 +51,7 @@ export default function Section2() {
                 <p className="italic font-normal text-[12px] leading-[24px] text-[#E8E6E3]">
                     Assistance is always within reach at BAGH. Our support staff stands by to assist you day and night. Get quick help when you need it. They are always ready to assist. Enjoy a smooth play at Bangladesh&apos;s best online casino.
                 </p>
-                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] ">Know More</button>
+                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] "><Link href="https://bagh.live/af/5pButO62/bagh55">Know More</Link></button>
             </div>
         </div>
         <div className="sm:flex m-auto py-[50px]">
@@ -64,7 +65,7 @@ export default function Section2() {
                 <p className="italic font-normal text-[12px] leading-[24px] text-[#E8E6E3]">
                     Your security is paramount at BAGH Casino. We employ secure systems for holding your information and funds. Deposits and withdrawals are fast and convenient so you can play without a care. Have peace of mind with each transaction.
                 </p>
-                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] ">Know More</button>
+                <button className="box-border flex flex-row justify-center items-center py-[12px] gap-[10px] w-[100%] md:w-[216px] h-[52px] border border-[#E8E6E3] drop-shadow-[0px_4px_4px_#000000] "><Link href="https://bagh.live/af/5pButO62/bagh55">Know More</Link></button>
             </div>
         </div>
     </div>
