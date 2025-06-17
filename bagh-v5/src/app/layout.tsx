@@ -22,8 +22,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BAGH Casino Online | Bangladesh’s Trusted Betting",
+  title: "BAGH Casino Online | Bangladesh's Trusted Betting",
   description: "BAGH Casino brings smart, secure online betting to Bangladesh. Enjoy fair play, local support, and high-quality slots and live games with Bagh8.",
+  alternates: {
+    canonical: "https://www.bagh55.com/",
+  },
   other: {
     'google-site-verification': 'yraiRxDBM2pGvft8s6LGwfXWPVAXAKwsw8rIiPFvsVo',
   },
