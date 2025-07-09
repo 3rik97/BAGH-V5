@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Nunito_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Nunito } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,7 +11,7 @@ const inter = Inter({
   weight: ['400', '700', '900'], // Adjust based on what you need
   variable: '--font-inter',
 });
-const Nunito = Nunito_Sans({
+const nunitoFont = Nunito({
   subsets: ['latin'],
   weight: ['400', '700', '900'], // Adjust based on what you need
   variable: '--font-nunito',
@@ -50,7 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${Nunito.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${nunitoFont.variable} antialiased`}
       >
         {children}
       </body>

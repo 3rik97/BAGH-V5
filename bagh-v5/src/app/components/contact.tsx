@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Contact() {
   return (
     <div className="max-w-[1440px] lg:p-[90px] lg:pt-0 flex flex-col gap-10 justify-self-center mx-auto">
@@ -27,7 +29,7 @@ export default function Contact() {
           </div> */}
           <div className="flex items-center gap-[20px]">
             <div className="icon">
-              <img src="/telephone.svg" alt="" />
+              <Image src="/telephone.svg" alt="Phone icon" width={20} height={20} />
             </div>
             <div>
               <div className="title">
@@ -40,7 +42,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center gap-[20px]">
             <div className="icon">
-              <img src="email.svg" alt="" />
+              <Image src="/email.svg" alt="Email icon" width={20} height={20} />
             </div>
             <div>
               <div className="title ">
