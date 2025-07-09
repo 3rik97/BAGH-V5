@@ -32,11 +32,12 @@ body {
 }
 
 .section1{
-  background-image: url("/Background.png");
+  background-image: url("/Background.webp");
   background-size: 100vw;
   background-position:top center;
   background-repeat: no-repeat;
 }
+
 p>span{
   position: relative;
   &::before{
