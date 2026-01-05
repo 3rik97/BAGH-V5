@@ -8,8 +8,7 @@ export default function Contact() {
           <span>Contact</span>
         </p>
         <p className="not-italic font-normal text-[20px] leading-[24px] text-[#E8E6E3] text-center">
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Need assistance? The BAGH Support Team is available 24/7 to help with your account, payments, and BAGH Games. Contact us anytime for fast and reliable support.
         </p>
       </div>
       <div className="flex flex-wrap justify-self-center justify-center gap-[63px] items-start">
@@ -49,7 +48,7 @@ export default function Contact() {
                 <p>Email Us</p>
               </div>
               <div className="content">
-                <p>info@example.com</p>
+                <p>infobagh8@gmail.com</p>
               </div>
             </div>
           </div>

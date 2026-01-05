@@ -71,7 +71,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="column3">
+      {/* <div className="column3">
         <div className="title">
           <p className="font-bold text-[16px] leading-[19px] text-[#F9F8F8] font-['Inter']">
             Our Services
@@ -94,7 +94,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className="column4 lg:w-[30%]">
         <p className="font-bold text-[16px] leading-[19px] text-[#F9F8F8] font-['Inter']">
           Our Newsletter
