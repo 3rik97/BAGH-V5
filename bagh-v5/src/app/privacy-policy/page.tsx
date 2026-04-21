@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
             <div className="max-w-[940px] m-auto p-[20px] lg:p-[40px]">
                 <h1 className="font-inter font-black text-[32px] leading-[39px] text-[#E8E6E3] mb-[12px]">BAGH Privacy Policy</h1>
                 <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    At <Link href={"/about-us"} className="text-blue-500">BAGH Live Casino</Link>, we promise to respect your privacy. Adhering to the Digital Security Act 2018 and relevant data protection regulations, we this Privacy Policy describes how we collect, use, store, and secure your personal information. Using our services indicates you acknowledge and agree with the requirements mentioned below.
+                    At <Link href={"/about"} className="text-blue-500">BAGH Live Casino</Link>, we promise to respect your privacy. Adhering to the Digital Security Act 2018 and relevant data protection regulations, we this Privacy Policy describes how we collect, use, store, and secure your personal information. Using our services indicates you acknowledge and agree with the requirements mentioned below.
                 </p>
                 <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">1. Policy Overview</h2>
                 <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
                 </p>
                 <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">2. Information Collected</h2>
                 <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    We gather some personal information, like your full name, mobile number, email address, date of birth, and payment information when you <Link href={"bagh.live/af/5pButO62/bagh55"} target="_blank" className="text-blue-500">sign up</Link> for the BAGH Betting site. Particularly in conformance with age restriction guidelines, we could also need a national ID or governmental documents to confirm your identification. Furthermore, automatically collected to assist us in improving your experience are technical details like your IP address, device information, and browsing activity on our site.
+                    We gather some personal information, like your full name, mobile number, email address, date of birth, and payment information when you <Link href={"https://bagh.live/af/5pButO62/bagh55"} target="_blank" className="text-blue-500">sign up</Link> for the BAGH Betting site. Particularly in conformance with age restriction guidelines, we could also need a national ID or governmental documents to confirm your identification. Furthermore, automatically collected to assist us in improving your experience are technical details like your IP address, device information, and browsing activity on our site.
                 </p>
                 <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">3. How the Data is Used</h2>
                 <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
