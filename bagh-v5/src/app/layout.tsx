@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Nunito } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Montserrat, Nunito } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/header-mobile";
 import Footer from "./components/footer";
+import Navbar from "./components/v2/navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +24,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: "--font-montserrat",
+  weight: ['400', '700', '900']
+
+})
 export const metadata: Metadata = {
   title: "BAGH Casino Online | Bangladesh's Trusted Betting",
   description: "BAGH Casino brings smart, secure online betting to Bangladesh. Enjoy fair play, local support, and high-quality slots and live games with Bagh8.",
@@ -31,6 +38,32 @@ export const metadata: Metadata = {
   },
   other: {
     'google-site-verification': 'yraiRxDBM2pGvft8s6LGwfXWPVAXAKwsw8rIiPFvsVo',
+  },
+  openGraph: {
+    title: "BAGH Casino Online | Bangladesh's Trusted Betting",
+    description: "BAGH Casino brings smart, secure online betting to Bangladesh. Enjoy fair play, local support, and high-quality slots and live games with Bagh8.",
+    siteName: "55",
+    images: [
+      {
+        url: "/logo.png",
+        width: 600,
+        height: 400,
+        alt: "Secure play at Bagh55 online casino in Bangladesh",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    title: "BAGH Casino Online | Bangladesh's Trusted Betting",
+    description: "BAGH Casino brings smart, secure online betting to Bangladesh. Enjoy fair play, local support, and high-quality slots and live games with Bagh8.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 600,
+        height: 400,
+        alt: "Secure play at Bagh55 online casino in Bangladesh",
+      },
+    ],
   },
 };
 
@@ -52,9 +85,10 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${nunitoFont.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${nunitoFont.variable} ${montserrat.variable} antialiased`}
       >
         <MobileNav />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

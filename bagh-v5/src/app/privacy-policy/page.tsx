@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: "BAGH Live Privacy Policy for a Safe and Secure Online Play",
         description: "Read the BAGH Live Privacy Policy and learn how we protect your data. At BAGH Online Casino we prioritize your safety while giving you a smooth experience",
         alternates: {
-            canonical: "https://bagh55.com/privacy-policy",
+            canonical: "https://www.bagh55.com/privacy-policy",
 
         },
         openGraph: {
