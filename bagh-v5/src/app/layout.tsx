@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Montserrat, Nunito } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/header-mobile";
+import Navbar from "./components/v2/navigation";
 import Footer from "./components/footer";
 // import Navbar from "./components/v2/navigation";
 
@@ -87,8 +88,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${nunitoFont.variable} ${montserrat.variable} antialiased`}
       >
-        <MobileNav />
-        {/* <Navbar /> */}
+        <div className="lg:hidden">
+          <MobileNav />
+        </div>
+        <div className="hidden lg:block">
+          <Navbar />
+        </div>
         {children}
         <Footer />
       </body>
