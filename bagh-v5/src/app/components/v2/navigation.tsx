@@ -13,7 +13,7 @@ export default function Navbar() {
                             <Link href="/">HOME</Link>
                         </li>
                         <li className="cursor-pointer hover:text-[#FF6A33] hover:[text-shadow:0px_0px_25px_#FF450099]">
-                            <Link href='https://www.bagh55.com/about'></Link>ABOUT US
+                            <Link href='https://www.bagh55.com/about'>ABOUT US</Link>
                         </li>
                         <li className="cursor-pointer hover:text-[#FF6A33] hover:[text-shadow:0px_0px_25px_#FF450099]">
                             <Link href={"#"}>SERVICES</Link>
