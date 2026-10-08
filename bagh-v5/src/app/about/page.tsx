@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: "Experience the excitement  at BAGH Live Casino in Bangladesh",
         description: "BAGH Live is a growing gaming site in Bangladesh where you can enjoy casino games and sports betting in one place. Find more about the BAGH online platform here",
         alternates: {
-            canonical: "https://bagh55.com/privacy-policy",
+            canonical: "https://bagh55.com/about",
 
         },
         openGraph: {
@@ -45,8 +45,8 @@ export default function About() {
     return (
         <section>
             <AboutHeader />
-            <AboutContent />
-            <AboutContent2 />
+            {/* <AboutContent />
+            <AboutContent2 /> */}
         </section>
     );
 }
