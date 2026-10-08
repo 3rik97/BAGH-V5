@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
         openGraph: {
             title: "Experience the excitement  at BAGH Live Casino in Bangladesh",
             description: "BAGH Live is a growing gaming site in Bangladesh where you can enjoy casino games and sports betting in one place. Find more about the BAGH online platform here",
-            siteName: "BAGH55",
+            siteName: "BAGH55 ",
             url: "https://bagh55.com/about",
             images: [
                 {
