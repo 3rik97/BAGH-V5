@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     title: "BAGH Casino Online | Bangladesh's Trusted Betting",
     description: "BAGH Casino brings smart, secure online betting to Bangladesh. Enjoy fair play, local support, and high-quality slots and live games with Bagh8.",
     siteName: "55",
+    url: "https://www.bagh55.com/",
     images: [
       {
         url: "/logo.png",
