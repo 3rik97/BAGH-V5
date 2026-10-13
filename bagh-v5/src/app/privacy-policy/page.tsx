@@ -44,59 +44,281 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function PrivacyPolicy() {
     return (
-        <section className="hero pt-[72px]">
-            <Image src={"/assets/policy.webp"} height={280} width={1920} alt="BAGH55" className="w-full m-auto hidden lg:block" />
-            <Image src={"/assets/policymobile.webp"} height={280} width={1920} alt="BAGH55" className="w-full m-auto block lg:hidden" />
-            <div className="max-w-[940px] m-auto p-[20px] lg:p-[40px]">
-                <h1 className="font-inter font-black text-[32px] leading-[39px] text-[#E8E6E3] mb-[12px]">BAGH Privacy Policy</h1>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    At <Link href={"/about"} className="text-blue-500">BAGH Live Casino</Link>, we promise to respect your privacy. Adhering to the Digital Security Act 2018 and relevant data protection regulations, we this Privacy Policy describes how we collect, use, store, and secure your personal information. Using our services indicates you acknowledge and agree with the requirements mentioned below.
+
+        <section className="h-[280px] lg:h-[auto]   bg-cover bg-center bg-no-repeat">
+            <Image src={"/v2/WEBP/HeroImage.webp"} width={1920} height={640} alt="bagh hero" className=" w-full hidden lg:block"></Image>
+            <Image src={"/v2/WEBP/HeroImagemobile.webp"} width={1920} height={640} alt="bagh hero" className=" w-full block lg:hidden pt-[60px]"></Image>
+            <div className="max-w-[1320px] m-auto p-[20px] lg:py-[80px]">
+                <h1 className="font-montserrat font-extrabold text-[40px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Baji BAGH <span className="text-[#CC5529]">Privacy Policy</span>
+                </h1>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    <Link href='https://www.bagh55.com/'>Baji BAGH</Link> Bangladesh is committed to protecting user privacy. It works to keep a safe and secure online gaming space for players in Bangladesh. Personal data safety is taken very seriously. Every effort is made to handle user information with care. This Privacy Policy explains how data is collected. It also explains how data is used and stored on the platform. Users can learn about their rights through this policy. The goal is to provide a smooth and trusted gaming experience in Bangladesh.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">1. Policy Overview</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    This policy covers every user of BAGH Live. Being transparent about how we treat your personal information and your rights as a user in Bangladesh helps us to establish a secure and reliable setting. This will give you an overview of how we keep our position as one of the top casinos in the <Link href={"https://www.bj.live/"} className="text-blue-500" target="_blank">trusted review websites.</Link>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Information We Collect and <span className="text-[#CC5529]">How It Is Used on BAGH Live</span>
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    We collect basic user information to provide a smooth and personalized experience on BAGH Live. This helps us manage accounts, process transactions, and improve overall platform performance for local users.
+                    <br /><br />
+                    When users register at BAGH App, we may collect personal details such as name, email address, phone number, and login credentials. We may also collect payment-related information to handle deposits and withdrawals safely and efficiently using available payment options in Bangladesh.
+                    <br /><br />
+                    We use this information for several important purposes, including:
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">2. Information Collected</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    We gather some personal information, like your full name, mobile number, email address, date of birth, and payment information when you <Link href={"https://bagh.live/af/5pButO62/bagh55"} target="_blank" className="text-blue-500">sign up</Link> for the BAGH Betting site. Particularly in conformance with age restriction guidelines, we could also need a national ID or governmental documents to confirm your identification. Furthermore, automatically collected to assist us in improving your experience are technical details like your IP address, device information, and browsing activity on our site.
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>Create and manage user accounts</li>
+                    <li>Support secure BAGH Login access</li>
+                    <li>Process payments using local options</li>
+                    <li>Improve services and platform features</li>
+                    <li>Provide customer support</li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    This data is collected only to improve service quality and ensure a better user experience on Baji BAGH.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">3. How the Data is Used</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    Your data helps us process payments via safe channels like bKash, Nagad, and Rocket, generate and manage your player account, and send you service alerts or marketing campaigns. It also helps us to identify suspicious behavior, prevent fraud on your account, and guarantee complete adherence to Bangladeshi rules and legislation. Your data helps us to enhance our platform, offer a customized user experience, and provide customer service. Only if you have opted in will marketing communications be sent; you may opt out at any moment.
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">How We Protect</span> Your Personal Data
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    Baji Bagh Bangladesh uses strong security systems to protect all personal data. Information shared during registration or BAGH Login is secured.
+                    <br /><br />
+                    We apply multiple layers of security at BAGH, including encrypted data transmission, secure servers, and restricted access to sensitive information. Only authorized systems and personnel can access limited data when necessary.
+                    <br /><br />
+                    BAGH Casino checks its systems often to keep users safe in Bangladesh. Updates are done on a regular basis. This helps protect personal data. It also keeps the platform secure at all times.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">4. Data Sharing and Third Parties</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    We do not rent or sell your information. However, we might transfer some information to authorized third parties like payment processors, ID verification companies, and government bodies if we are bound to do so by law. We also transfer data to regulatory bodies in compliance with checks and reporting for financial purposes.
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Cookies and Tracking Technologies Policy
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    Baji BAGH uses cookies to improve how the website works. These cookies help the site run smoothly for users. They remember user choices and settings. This makes it easier to move around the platform. Cookies also help improve the experience for users in Bangladesh after BAGH Login.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">5. Data Protection and Security</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    To safeguard your data, we adhere to industry norms for security procedures. Included here are two-step verification, frequent system audits, SSL encryption, and secure server hosting. Restricted access to protected databases houses your personal information; our systems are constantly monitored to find and stop any kind of unwanted access or misapplication.
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    Cookies are mainly used for:
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">6. Cookies and Tracking Technologies</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    Cookies help our website give a more seamless experience. These tiny files record your preferences, ensure safe sessions, and track your interactions with our features. Managing or disabling cookies in your browser preferences is possible. But disabling cookies could degrade the usability and performance of some features on <Link href={"https://www.bagh77.fun/"} target="_blank" className="text-blue-500">BAGH Online Casino.</Link>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Keeping users logged in securely
+                    </li>
+                    <li>
+                        Saving game settings and preferences
+                    </li>
+                    <li>
+                        Analyzing website performance
+                    </li>
+                    <li>
+                        Improving loading speed and usability
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    BAGH Casino checks its systems often to keep users safe in Bangladesh. Updates are done on a regular basis. This helps protect personal data. It also keeps the platform secure at all times.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">7. Data Retention</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    Your personal data collected upon the BAGH Casino login and registration process is stored until your account is active or as needed by Bangladeshi legislation. Personal data and dormant accounts are stored off-site and erased securely after a determined retention period, apart from where needed for fraud prevention, compliance audits, or judicial requests.
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">BAGH Casino Data Sharing</span> and Third-Party Services
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    While at BAGH Casino, user privacy is our priority; therefore, we do not share any personal details with any third party. At times, there is a need to share some amount of data with the service providers.
+                    <br /><br />
+                    These third parties may include payment processors that support local transactions, security providers, and technical service partners.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">8. User Rights</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    You, as a Bangladeshi user, have the right to ask for access to the personal data we have about you, ask for corrections if information is incorrect, and request deletion of your data if no longer required. At any moment, you can also revoke your authorization to get marketing communications. Please provide proof of identity to our support staff if you want to use any of these rights.
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    Important points about data sharing:
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">9. Age Restriction</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    Strictly forbids those under the age of 18 from using BAGH Online Casino services. To verify a user&apos;s age, we conduct age verification processes and might ask for supporting documents, including a National ID. Accounts found to be held by minors will be closed permanently.
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Data is shared only when necessary
+                    </li>
+                    <li>
+                        Partners must follow strict confidentiality rules
+                    </li>
+                    <li>
+                        Information is used only for service-related purposes
+                    </li>
+                    <li>
+                        Security standards are maintained at all times
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    BAGH Live Bangladesh ensures that all third-party partners handle data responsibly and securely.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">10. Changes to the Policy</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    From time to time, we may amend this Privacy Policy to match legislative developments or improvements to our <Link href="/#" className="text-blue-500">BAGH service.</Link> With a modified effective date, all changes will be published on our website. Users will be informed of any major changes either via direct alerts or banners on our site.
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">User Rights</span> and Data Control Options
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    Users in Bangladesh have full control over their personal data on Baji BAGH. We believe in transparency and allow users to manage their information easily.
                 </p>
-                <h2 className="font-inter font-black text-[20px] leading-[24px] text-[#E8E6E3]">11. Contact Information</h2>
-                <p className="font-['Inter'] font-normal text-[16px] leading-[19px] text-left text-[#E8E6E3] mb-[24px]">
-                    Should you have any queries regarding this Privacy Policy, or if you want to exercise your rights under this policy. You can visit our BAGH Help Page or contact the <Link href="https://bagh44.com/" target="_blank" className="text-blue-500">BAGH1</Link> support team for any concerns regarding your account, funds, and information.
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    Users can:
+                </p>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        View their personal account information
+                    </li>
+                    <li>
+                        Update or correct details when needed
+                    </li>
+                    <li>
+                        Request account deletion if required
+                    </li>
+                    <li>
+                        Manage communication preferences
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    To manage data, users can log into their account using BAGH Login, go to settings, and make necessary changes. Support is also available for additional assistance.
+                </p>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">Account Security</span> and User Responsibility
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    While Baji BAGH provides strong security systems, users also play an important role in protecting their accounts.
+                    <br /><br />
+                    It is important to keep BAGH Login details private and secure at all times. Users should avoid sharing passwords or account access with others.
+                </p>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    To improve account safety, users should:
+                </p>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Use strong and unique passwords
+                    </li>
+                    <li>
+                        Avoid sharing login credentials
+                    </li>
+                    <li>
+                        Log out after using shared devices
+                    </li>
+                    <li>
+                        Report any suspicious activity immediately
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    These steps help ensure a safer gaming experience for BAGH users in Bangladesh.
+                </p>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Payment Information and <span className="text-[#CC5529]">Transaction Safety</span>
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    All financial transactions on Baji BAGH are processed through secure systems designed to protect user funds and personal information.
+                    <br /><br />
+                    We use encrypted payment channels and trusted processing systems to ensure safe deposits and withdrawals, including options suitable for Bangladeshi users where available.
+                </p>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    Key security features include:
+                </p>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Secure payment gateways
+                    </li>
+                    <li>
+                        Encrypted financial data transfer
+                    </li>
+                    <li>
+                        Fraud detection systems
+                    </li>
+                    <li>
+                        Fast and reliable processing
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
+                    Users are advised to use only the BAGH Live official payment methods provided on the platform.
+                </p>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Data Retention and <span className="text-[#CC5529]">Storage Policy</span>
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    User data is stored as long as it is required to offer services or to fulfill any legal requirements within Bangladesh and other relevant territories. Data that is not required is securely destroyed or made anonymous.
+                    <br /><br />
+                    BAGH Live data storage is managed carefully to maintain both system efficiency and user privacy. Inactive accounts may be reviewed periodically.
+                </p>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    The main goals of our data retention policy are:
+                </p>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Maintain service quality
+                    </li>
+                    <li>
+                        Protect user privacy
+                    </li>
+                    <li>
+                        Improve system performance
+                    </li>
+                    <li>
+                        Comply with operational requirements
+                    </li>
+                </ul>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">Updates and Changes</span> to Privacy Policy
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    The Privacy Policy of Baji BAGH Bangladesh may be amended regularly. This could be done because of upgrades to our services, compliance with legal regulations of Bangladesh, or security considerations.
+                    <br /><br />
+                    Upon amendment, it will be posted online. It is recommended that users check this page regularly. Continued use of the platform means users accept any updated terms.
+                </p>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    <span className="text-[#CC5529]">Contact Us for Privacy</span> and Data Concerns
+                </h2>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    If users have any questions or concerns regarding privacy, data handling, or account security, they can contact BAGH Casino support team for assistance.
+                </p>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7]">
+                    Our support team is available to help users in Bangladesh with:
+                </p>
+                <ul className="font-inter font-bold text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] list-disc pl-[20px] pb-[24px]">
+                    <li>
+                        Account and BAGH Login issues
+                    </li>
+                    <li>
+                        Privacy and data questions
+                    </li>
+                    <li>
+                        Security concerns
+                    </li>
+                    <li>
+                        General platform support
+                    </li>
+                </ul>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    We aim to respond quickly and provide clear solutions.
+                    <br /><br />
+                    Baji BAGH guarantees a safe and reliable gaming platform for all users in Bangladesh. The objective of this Privacy Policy is to guide the players as to what would happen to their information on this gaming platform. Being a player at Baji BAGH Gaming Platform, you should observe this Privacy Policy.
+                    <br /><br />
+                    We are constantly upgrading our platforms for the benefit of our players and maintaining your trust through security. Join Baji BAGH today and enjoy a secure online gaming experience with full confidence.
+                </p>
+                <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
+                    Baji BAGH <span className="text-[#CC5529]">FAQ</span>
+                </h2>
+                <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
+                    1. What information do you collect from users at BAGH?
+                </h3>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    We collect basic account details, contact info, and transaction data to run the service.
+                </p>
+                <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
+                    2. Is my personal data safe?
+                </h3>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    Yes, we use strong security systems to keep all user data safe.
+                </p>
+                <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
+                    3. Do you share my personal information at BAGH Casino?
+                </h3>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    BAGH only shares limited data with trusted service providers needed for payments and platform operations.
+                </p>
+                <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
+                    4. Can I update or delete my account information?
+                </h3>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    Yes, users can update their data or request changes through the BAGH App account settings or support.
+                </p>
+                <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
+                    5. Why are cookies used on BAGH Live?
+                </h3>
+                <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
+                    Cookies help improve performance, save user preferences, and enhance the overall BAGH experience.
                 </p>
             </div>
         </section>
+
     )
 }
