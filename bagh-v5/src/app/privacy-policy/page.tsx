@@ -46,8 +46,8 @@ export default function PrivacyPolicy() {
     return (
 
         <section className="h-[280px] lg:h-[auto]   bg-cover bg-center bg-no-repeat">
-            <Image src={"/v2/WEBP/HeroImage.webp"} width={1920} height={640} alt="bagh hero" className=" w-full hidden lg:block"></Image>
-            <Image src={"/v2/WEBP/HeroImagemobile.webp"} width={1920} height={640} alt="bagh hero" className=" w-full block lg:hidden pt-[60px]"></Image>
+            <Image src={"/v2/WEBP/privacy.webp"} width={1920} height={640} alt="bagh hero" className=" w-full hidden lg:block"></Image>
+            <Image src={"/v2/WEBP/privacymobile.webp"} width={1920} height={640} alt="bagh hero" className=" w-full block lg:hidden pt-[60px]"></Image>
             <div className="max-w-[1320px] m-auto p-[20px] lg:py-[80px]">
                 <h1 className="font-montserrat font-extrabold text-[40px] leading-[49px] text-[#FAFAFA] pb-[24px]">
                     Baji BAGH <span className="text-[#CC5529]">Privacy Policy</span>
