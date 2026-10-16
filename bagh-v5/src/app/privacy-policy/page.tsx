@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
             <Image src={"/v2/WEBP/privacymobile.webp"} width={1920} height={640} alt="bagh hero" className=" w-full block lg:hidden pt-[60px]"></Image>
             <div className="max-w-[1320px] m-auto p-[20px] lg:py-[80px]">
                 <h1 className="font-montserrat font-extrabold text-[40px] leading-[49px] text-[#FAFAFA] pb-[24px]">
-                    Baji BAGH <span className="text-[#CC5529]">Privacy Policy</span>
+                    Baji BAGH <span className="text-[#CC5529]">Privacy  Policy</span>
                 </h1>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
                     <Link href='https://www.bagh55.com/' className="text-[#CC5529] underline">Baji BAGH</Link> Bangladesh is committed to protecting user privacy. It works to keep a safe and secure online gaming space for players in Bangladesh. Personal data safety is taken very seriously. Every effort is made to handle user information with care. This Privacy Policy explains how data is collected. It also explains how data is used and stored on the platform. Users can learn about their rights through this policy. The goal is to provide a smooth and trusted gaming experience in Bangladesh.
