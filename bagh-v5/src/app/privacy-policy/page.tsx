@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
                     Baji BAGH <span className="text-[#CC5529]">Privacy Policy</span>
                 </h1>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
-                    <Link href='https://www.bagh55.com/'>Baji BAGH</Link> Bangladesh is committed to protecting user privacy. It works to keep a safe and secure online gaming space for players in Bangladesh. Personal data safety is taken very seriously. Every effort is made to handle user information with care. This Privacy Policy explains how data is collected. It also explains how data is used and stored on the platform. Users can learn about their rights through this policy. The goal is to provide a smooth and trusted gaming experience in Bangladesh.
+                    <Link href='https://www.bagh55.com/' className="text-[#CC5529] underline">Baji BAGH</Link> Bangladesh is committed to protecting user privacy. It works to keep a safe and secure online gaming space for players in Bangladesh. Personal data safety is taken very seriously. Every effort is made to handle user information with care. This Privacy Policy explains how data is collected. It also explains how data is used and stored on the platform. Users can learn about their rights through this policy. The goal is to provide a smooth and trusted gaming experience in Bangladesh.
                 </p>
                 <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
                     Information We Collect and <span className="text-[#CC5529]">How It Is Used on BAGH Live</span>
@@ -115,7 +115,7 @@ export default function PrivacyPolicy() {
                     <span className="text-[#CC5529]">BAGH Casino Data Sharing</span> and Third-Party Services
                 </h2>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
-                    While at BAGH Casino, user privacy is our priority; therefore, we do not share any personal details with any third party. At times, there is a need to share some amount of data with the service providers.
+                    While at <Link href={"https://www.bagh77.fun/"} target="_blank" className="text-[#CC5529] underline">BAGH Casino</Link>, user privacy is our priority; therefore, we do not share any personal details with any third party. At times, there is a need to share some amount of data with the service providers.
                     <br /><br />
                     These third parties may include payment processors that support local transactions, security providers, and technical service partners.
                 </p>
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
                     </li>
                 </ul>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
-                    To manage data, users can log into their account using BAGH Login, go to settings, and make necessary changes. Support is also available for additional assistance.
+                    To manage data, users can log into their account using <Link href={"https://bagh44.com/"} target="_blank" className="text-[#CC5529] underline">BAGH Login</Link>, go to settings, and make necessary changes. Support is also available for additional assistance.
                 </p>
                 <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
                     <span className="text-[#CC5529]">Account Security</span> and User Responsibility
@@ -219,7 +219,7 @@ export default function PrivacyPolicy() {
                     </li>
                 </ul>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[40px]">
-                    Users are advised to use only the BAGH Live official payment methods provided on the platform.
+                    Users are advised to use only the BAGH Live <Link href={"https://www.bagh55.com/about"} className="text-[#CC5529] underline">official payment methods</Link> provided on the platform.
                 </p>
                 <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
                     Data Retention and <span className="text-[#CC5529]">Storage Policy</span>
@@ -282,7 +282,7 @@ export default function PrivacyPolicy() {
                     <br /><br />
                     Baji BAGH guarantees a safe and reliable gaming platform for all users in Bangladesh. The objective of this Privacy Policy is to guide the players as to what would happen to their information on this gaming platform. Being a player at Baji BAGH Gaming Platform, you should observe this Privacy Policy.
                     <br /><br />
-                    We are constantly upgrading our platforms for the benefit of our players and maintaining your trust through security. Join Baji BAGH today and enjoy a secure online gaming experience with full confidence.
+                    We are constantly upgrading our platforms for the benefit of our players and maintaining your trust through security. <Link href="https://bagh.live/af/5pButO62/bagh55" target="_blank" className="text-[#CC5529] underline">Join Baji BAGH today</Link> and enjoy a secure online gaming experience with full confidence.
                 </p>
                 <h2 className="font-montserrat font-extrabold text-[36px] leading-[49px] text-[#FAFAFA] pb-[24px]">
                     Baji BAGH <span className="text-[#CC5529]">FAQ</span>
@@ -297,7 +297,7 @@ export default function PrivacyPolicy() {
                     2. Is my personal data safe?
                 </h3>
                 <p className="font-inter font-light text-[16px] leading-[19px] tracking-[2px]  text-[#C7C7C7] pb-[24px]">
-                    Yes, we use strong security systems to keep all user data safe.
+                    Yes, we use <Link href={"https://www.nagad888.site/en-bd"} target="_blank" className="text-[#CC5529] underline">strong security systems</Link> to keep all user data safe.
                 </p>
                 <h3 className="font-inter text-[18px] font-bold leading-[22px] tracking-[2px] text-[#C7C7C7] self-stretch">
                     3. Do you share my personal information at BAGH Casino?
